@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+在线候选词.txt
+词库更新报告.json

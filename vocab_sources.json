@@ -1,0 +1,18 @@
+{
+  "local_sources": [
+    "UserDefinedPhrase.txt"
+  ],
+  "sources": [
+    {
+      "name": "jieba-extra-dict-big",
+      "url": "https://raw.githubusercontent.com/fxsjy/jieba/master/extra_dict/dict.txt.big",
+      "format": "jieba",
+      "enabled": true,
+      "timeout": 120,
+      "min_frequency": 1000,
+      "max_length": 8,
+      "max_candidates": 2000
+    }
+  ],
+  "include_candidates_in_dat": false
+}
