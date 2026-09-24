@@ -1,4 +1,52 @@
+# Python 编译缓存与构建产物
 __pycache__/
 *.py[cod]
+*$py.class
+*.pyo
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试、覆盖率与静态检查缓存
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器与 IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 环境变量与本地日志
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+
+# 词库流水线生成的本地审阅文件
 在线候选词.txt
 词库更新报告.json
+approved_terms.txt
+
+# UserDefinedPhrase.dat 是项目提供的发布文件，需保留在版本控制中。
+
